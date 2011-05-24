@@ -1,0 +1,15 @@
+This is a project I am working on in Aerospace Dept, IISc Bangalore during May 2011.
+
+It involves creating a GUI (including fetchind data from a databse using JDBS) in Java using the Eclipse IDE for a flapping wing MAV (Micro Air-Vehicle) design and testing software.
+
+This project is the initial phase of a national initiative by the Govt. of India. For more details, visit http://www.ndrfindia.org/goals.htm
+
+Directions for running source code
+
+Make sure the project folder (here it is mavdts) is copied to the eclipse workspace folder. The workspace folder for me was home/eclipse-workspace. I use Ubuntu. It should be pretty same for Mac adn Windows as well. So, after doing this, there will be a folder with the path home/eclipse-workspace/mavdts.
+
+Then, open the eclipse IDE. If you are using Linux, you can do it from terminal by going to the eclipse folder in your system (For me, it was home/eclipse) and typing ./eclipse -vm ./jdk1.6.0_23/bin/java where ./jdk1.6.0_23/bin/java specified the path where Java could be found. Then, once the Eclipse IDE opens, go to File>Import. In that, General>Existing Projects into Workspace. Then you browse for your project directory which is mavdts in the workspace folder. It's now successfully imported. 
+
+To connect to database, make sure you have mySQL installed in your computer. Add the external JAR (mysql-connector-java-5.1.16-bin.jar) to the project. This can be done by going to Project>Properties>Java Buil Path>Libraries>Add external JARs. Browse for the above mentioned JAR which should be copied to where java is located in your computer.
+
+Then go to Run>Run As>Java Application.
