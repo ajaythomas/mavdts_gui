@@ -1,6 +1,6 @@
 This is a project I am working on in Aerospace Dept, IISc Bangalore during May 2011.
 
-It involves creating a GUI (including fetchind data from a databse using JDBS) in Java using the Eclipse IDE for a flapping wing MAV (Micro Air-Vehicle) design and testing software.
+It involves creating a GUI (including fetching data from a databse using JDBS) in Java using the Eclipse IDE for a flapping wing MAV (Micro Air-Vehicle) design and testing software.
 
 This project is the initial phase of a national initiative by the Govt. of India. For more details, visit http://www.ndrfindia.org/goals.htm
 
