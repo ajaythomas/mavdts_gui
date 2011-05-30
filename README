@@ -12,7 +12,7 @@ Then, open the eclipse IDE. If you are using Linux, you can do it from terminal 
 
 To connect to database, make sure you have mySQL installed in your computer. 
 
-I have included the jars required in the mavdts_gui folder which should be downloaded (if you don't already have them) into the folder preferrably where java is located in your computer.
+I have included the mysql connector jar required in the mavdts_gui folder which should be downloaded (if you don't already have them) into the folder preferrably where java is located in your computer. The java 3d jars and other dependencies have to be downloaded online.
 
 Add the external JARs (mysql-connector-java-5.1.16-bin.jar for the database connection, j3dcore.jar, j3dutils.jar and vecmath.jar for viewing the 3d graphics window) to the project. This can be done by going to Project>Properties>Java Build Path>Libraries>Add external JARs. Browse for the above mentioned JARs which should be copied to where java is located in your computer.
 
