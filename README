@@ -1,4 +1,4 @@
-This is a project I am working on in Aerospace Dept, IISc Bangalore during May 2011.
+This is a project I worked on in the Aerospace Department, IISc Bangalore during summer of 2011. Test
 
 It involves creating a GUI (including fetching data from a databse using JDBS) in Java using the Eclipse IDE for a flapping wing MAV (Micro Air-Vehicle) design and testing software.
 
